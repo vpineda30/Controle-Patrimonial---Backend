@@ -6,3 +6,9 @@ export interface UserDTO {
     role: string
     createdAt: Date
 }
+
+export interface HTTP_RESPONSE {
+    success: boolean
+    status: number
+    message?: object | string
+}
